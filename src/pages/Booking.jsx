@@ -17,8 +17,7 @@ const Booking = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you could integrate with Formspree, or any API endpoint
-    // For now, we simulate a successful submission
+    // Here, integrate with Formspree or another service for real submissions
     console.log("Booking submitted:", formData);
     setSubmitted(true);
   };
